@@ -59,10 +59,14 @@ cargo run
 ```
 O servidor NATS estará disponível em nats://localhost:4222
 
-A API REST será executada em http://localhost:3000.
+A API REST será executada em http://localhost:8000.
 
 Endpoints da API 🌐
 
 GET /health: Retorna o status de saúde do serviço.
 
 GET /reports: Retorna todos os relatórios processados e salvos no MongoDB.
+
+```cURL
+curl --location 'http://localhost:8000/reports'
+```
