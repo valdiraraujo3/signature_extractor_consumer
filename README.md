@@ -38,27 +38,25 @@ Clone o repositório:
 
 Bash
 
+```bash
 git clone https://github.com/seu-usuario/signature_extractor_consumer.git
 
 cd signature_extractor_consumer
-
+```
 Inicie os serviços com Docker Compose:
 
-docker-compose.yml
-<img width="1730" height="902" alt="image" src="https://github.com/user-attachments/assets/c8487fb8-8bb9-41d9-846c-fe9992f9485f" />
-
 Bash
-
+```bash
 docker-compose up -d
-
+```
 Isso irá subir os containers para o MongoDB, NATS e NUI (uma interface web para o NATS).
 
 Execute o projeto em Rust:
 
 Bash
-
+```bash
 cargo run
-
+```
 O servidor NATS estará disponível em nats://localhost:4222. 
 A API REST será executada em http://localhost:3000.
 
