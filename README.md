@@ -57,7 +57,8 @@ Bash
 ```bash
 cargo run
 ```
-O servidor NATS estará disponível em nats://localhost:4222. 
+O servidor NATS estará disponível em nats://localhost:4222
+
 A API REST será executada em http://localhost:3000.
 
 Endpoints da API 🌐
